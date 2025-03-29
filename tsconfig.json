@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./build",
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "paths": {
+          "@/*": ["./*"]
+        },
+        "esModuleInterop": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "declaration": false
+    },
+}
